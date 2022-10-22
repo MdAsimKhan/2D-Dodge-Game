@@ -1,0 +1,12 @@
+.panel {
+    width: 70%;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(12, 12, 12, 0.59);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -unity-text-align: middle-center;
+}

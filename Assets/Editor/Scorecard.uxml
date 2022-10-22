@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/green%20button.uss?fileID=7433441132597879392&amp;guid=5bfa0c4b2a7f957448e3a1540ed31368&amp;type=3#green button" />
+    <Style src="project://database/Assets/UI/menu-screen.uss?fileID=7433441132597879392&amp;guid=5df29a1314f5e0e4b9260f2981448704&amp;type=3#menu-screen" />
+    <ui:VisualElement name="Game-Over-Menu" class="start-menu menu-screen" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="game-over" class="image-logo" style="background-image: url(&apos;project://database/Assets/Media/game-over.png?fileID=21300000&amp;guid=8df9187ab62f24844b0d5a81a25b8d46&amp;type=3#game-over&apos;);" />
+        <ui:VisualElement name="panel" class="panel">
+            <ui:Label text="SCORE" display-tooltip-when-elided="true" name="score-title" style="-unity-font-style: bold; font-size: 30px; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=681cdd5451eeb544b8ceebe8fd9ef331&amp;type=3#NotInter-Regular&apos;); color: rgb(238, 21, 21); -unity-text-outline-color: rgb(255, 0, 0); -unity-text-align: lower-center; white-space: normal; margin-top: 5px; align-items: center; justify-content: center; margin-bottom: 5px; width: auto; height: auto;" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="score" style="font-size: 40px; -unity-font-style: bold; color: rgb(253, 249, 249); margin-top: 5px; margin-bottom: 5px;" />
+            <ui:Button text="Retry" display-tooltip-when-elided="true" name="retry" class="button" style="font-size: 20px;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit" class="button" style="font-size: 20px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

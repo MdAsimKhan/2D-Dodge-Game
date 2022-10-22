@@ -1,0 +1,82 @@
+.button {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(123, 248, 0);
+    border-left-color: rgb(38, 38, 38);
+    border-right-color: rgb(38, 38, 38);
+    border-top-color: rgb(38, 38, 38);
+    border-bottom-color: rgb(38, 38, 38);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgb(38, 38, 38);
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+    width: 50%;
+    height: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+
+.button:active {
+}
+
+.button:hover {
+    background-color: rgb(112, 250, 126);
+    border-left-color: rgb(112, 250, 126);
+    border-right-color: rgb(112, 250, 126);
+    border-top-color: rgb(112, 250, 126);
+    border-bottom-color: rgb(112, 250, 126);
+}
+
+.screen {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.menu-button {
+    width: 110px;
+    height: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.start-menu {
+    background-color: rgb(56, 56, 56);
+    background-image: url('project://database/Assets/Sprites/bg.png?fileID=21300000&guid=5cb4f9f90daa3454c96359fba33172e3&type=3#bg');
+    justify-content: center;
+}
+
+.bg {
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 50%;
+    background-color: rgba(58, 56, 56, 0.35);
+    opacity: 1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.image-logo {
+    background-image: url('project://database/Assets/Media/retry.png?fileID=21300000&guid=9d47c9018bf89dc4aa9a3c8b035b545c&type=3#retry');
+    width: 40%;
+    height: 25%;
+    background-color: rgba(88, 88, 88, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

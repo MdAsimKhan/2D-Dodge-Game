@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/green%20button.uss?fileID=7433441132597879392&amp;guid=5bfa0c4b2a7f957448e3a1540ed31368&amp;type=3#green button" />
+    <Style src="project://database/Assets/UI/menu-screen.uss?fileID=7433441132597879392&amp;guid=5df29a1314f5e0e4b9260f2981448704&amp;type=3#menu-screen" />
+    <ui:VisualElement name="start-menu" class="screen start-menu">
+        <ui:Label text="2D Dodge" display-tooltip-when-elided="true" name="game-title" style="font-size: 80px; -unity-font-style: bold; margin-bottom: 50px; color: rgb(255, 23, 26); -unity-text-outline-width: 1.5px; -unity-text-outline-color: rgb(0, 0, 0); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        <ui:VisualElement name="bg" class="bg">
+            <ui:IMGUIContainer name="logo" class="image-logo" style="background-image: url(&apos;project://database/Assets/Sprites/mario-11690.PNG?fileID=2800000&amp;guid=8012d4a1a09b26c4aa53d16517a0e810&amp;type=3#mario-11690&apos;); width: 100%; height: 50%; -unity-background-scale-mode: scale-to-fit; align-items: center; justify-content: center;" />
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="start" class="button" style="font-size: 20px;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit" class="button" style="margin-top: 5px; font-size: 20px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
