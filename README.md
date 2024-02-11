@@ -2,7 +2,7 @@
 First game developed by me in Unity.
 
 <img src="https://drive.google.com/file/d/1J_1LDuKYUhNx5vuKp0tyAqRaqgG0PwSB/view?usp=sharing" />
-<img src="https://github.com/MdAsimKhan/2D-Dodge-Game/blob/origin/Demo%20Images/ingame1.jpgg" />
+<img src="https://github.com/MdAsimKhan/2D-Dodge-Game/blob/origin/Demo%20Images/ingame1.jpg" />
 <img src="https://drive.google.com/file/d/1JlOREoxOG_SseVylez-ZgPd0x-QgBEhs/view?usp=sharing" />
 <img src="https://drive.google.com/file/d/1JrJW37DfOt3NAzgUfC1NIjMMpWQtRSFV/view?usp=sharing" />
 
